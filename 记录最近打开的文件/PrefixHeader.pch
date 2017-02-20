@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  记录最近打开的文件
+//
+//  Created by apple on 2017/2/16.
+//  Copyright © 2017年 Chuckie. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "SingletonMacro.h"
+#import "EZDB.h"
+#import "BaseFileManager.h"
+
+//Format
+#define FORMAT(format, ...) [NSString stringWithFormat:(format), ##__VA_ARGS__]
+//Timestamp
+#define MSEC(second)        ((long long) (second * 1000))
+#define SEC(millisecond)    ((double) (millisecond / 1000.0))
+
+#endif /* PrefixHeader_pch */

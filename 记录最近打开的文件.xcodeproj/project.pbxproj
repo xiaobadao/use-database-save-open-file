@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182AAE3B1E557ADB00BB420C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE3A1E557ADB00BB420C /* main.m */; };
+		182AAE3E1E557ADB00BB420C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE3D1E557ADB00BB420C /* AppDelegate.m */; };
+		182AAE411E557ADB00BB420C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE401E557ADB00BB420C /* ViewController.m */; };
+		182AAE441E557ADB00BB420C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AAE421E557ADB00BB420C /* Main.storyboard */; };
+		182AAE461E557ADB00BB420C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AAE451E557ADB00BB420C /* Assets.xcassets */; };
+		182AAE491E557ADB00BB420C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182AAE471E557ADB00BB420C /* LaunchScreen.storyboard */; };
+		182AAE541E557ADB00BB420C /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE531E557ADB00BB420C /* _________Tests.m */; };
+		182AAE5F1E557ADB00BB420C /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE5E1E557ADB00BB420C /* _________UITests.m */; };
+		182AAE741E557AFA00BB420C /* EZBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE6E1E557AFA00BB420C /* EZBean.m */; };
+		182AAE751E557AFA00BB420C /* EZDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE701E557AFA00BB420C /* EZDao.m */; };
+		182AAE761E557AFA00BB420C /* EZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAE721E557AFA00BB420C /* EZDatabase.m */; };
+		182AAEB51E55800400BB420C /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAEB41E55800400BB420C /* ViewControllerTwo.m */; };
+		182AAEBE1E55874E00BB420C /* AppDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAEBD1E55874E00BB420C /* AppDataBase.m */; };
+		182AAEC31E5588AC00BB420C /* BaseFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAEC21E5588AC00BB420C /* BaseFileManager.m */; };
+		182AAEC61E558A5B00BB420C /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAEC51E558A5B00BB420C /* ReadViewController.m */; };
+		182AAECB1E558CFD00BB420C /* OpenFileDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAECA1E558CFD00BB420C /* OpenFileDao.m */; };
+		182AAECE1E558D0C00BB420C /* OpenFileBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 182AAECD1E558D0C00BB420C /* OpenFileBean.m */; };
+		536F6864D1E259B8ED5F0822 /* libPods-记录最近打开的文件.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F82907B7DFA7E938CF12DD2D /* libPods-记录最近打开的文件.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182AAE501E557ADB00BB420C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182AAE2E1E557ADB00BB420C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182AAE351E557ADB00BB420C;
+			remoteInfo = "记录最近打开的文件";
+		};
+		182AAE5B1E557ADB00BB420C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182AAE2E1E557ADB00BB420C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182AAE351E557ADB00BB420C;
+			remoteInfo = "记录最近打开的文件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182AAE361E557ADB00BB420C /* 记录最近打开的文件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记录最近打开的文件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182AAE3A1E557ADB00BB420C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182AAE3C1E557ADB00BB420C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182AAE3D1E557ADB00BB420C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182AAE3F1E557ADB00BB420C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182AAE401E557ADB00BB420C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182AAE431E557ADB00BB420C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182AAE451E557ADB00BB420C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182AAE481E557ADB00BB420C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182AAE4A1E557ADB00BB420C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182AAE4F1E557ADB00BB420C /* 记录最近打开的文件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "记录最近打开的文件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182AAE531E557ADB00BB420C /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		182AAE551E557ADB00BB420C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182AAE5A1E557ADB00BB420C /* 记录最近打开的文件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "记录最近打开的文件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182AAE5E1E557ADB00BB420C /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		182AAE601E557ADB00BB420C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182AAE6D1E557AFA00BB420C /* EZBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBean.h; sourceTree = "<group>"; };
+		182AAE6E1E557AFA00BB420C /* EZBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBean.m; sourceTree = "<group>"; };
+		182AAE6F1E557AFA00BB420C /* EZDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDao.h; sourceTree = "<group>"; };
+		182AAE701E557AFA00BB420C /* EZDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZDao.m; sourceTree = "<group>"; };
+		182AAE711E557AFA00BB420C /* EZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDatabase.h; sourceTree = "<group>"; };
+		182AAE721E557AFA00BB420C /* EZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZDatabase.m; sourceTree = "<group>"; };
+		182AAE731E557AFA00BB420C /* EZDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDB.h; sourceTree = "<group>"; };
+		182AAEB31E55800400BB420C /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		182AAEB41E55800400BB420C /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		182AAEBC1E55874E00BB420C /* AppDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataBase.h; sourceTree = "<group>"; };
+		182AAEBD1E55874E00BB420C /* AppDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataBase.m; sourceTree = "<group>"; };
+		182AAEBF1E5587DA00BB420C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		182AAEC01E55885400BB420C /* SingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonMacro.h; sourceTree = "<group>"; };
+		182AAEC11E5588AC00BB420C /* BaseFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFileManager.h; sourceTree = "<group>"; };
+		182AAEC21E5588AC00BB420C /* BaseFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFileManager.m; sourceTree = "<group>"; };
+		182AAEC41E558A5B00BB420C /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		182AAEC51E558A5B00BB420C /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		182AAEC91E558CFD00BB420C /* OpenFileDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenFileDao.h; sourceTree = "<group>"; };
+		182AAECA1E558CFD00BB420C /* OpenFileDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenFileDao.m; sourceTree = "<group>"; };
+		182AAECC1E558D0C00BB420C /* OpenFileBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenFileBean.h; sourceTree = "<group>"; };
+		182AAECD1E558D0C00BB420C /* OpenFileBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenFileBean.m; sourceTree = "<group>"; };
+		182AAECF1E558E5C00BB420C /* Functional Specification_PAL_Wrapper_V1.1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Functional Specification_PAL_Wrapper_V1.1.docx"; sourceTree = "<group>"; };
+		182AAED01E558E6900BB420C /* Functional Specification for CAM iPoS -Supplement v0.3.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Functional Specification for CAM iPoS -Supplement v0.3.doc"; sourceTree = "<group>"; };
+		182AAED11E558E7200BB420C /* Functional Specification for CAM iPoS v0.9.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Functional Specification for CAM iPoS v0.9.doc"; sourceTree = "<group>"; };
+		D4BE8386C74157DB26DE5BE5 /* Pods-记录最近打开的文件.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-记录最近打开的文件.debug.xcconfig"; path = "Pods/Target Support Files/Pods-记录最近打开的文件/Pods-记录最近打开的文件.debug.xcconfig"; sourceTree = "<group>"; };
+		DD282977F069515F26977595 /* Pods-记录最近打开的文件.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-记录最近打开的文件.release.xcconfig"; path = "Pods/Target Support Files/Pods-记录最近打开的文件/Pods-记录最近打开的文件.release.xcconfig"; sourceTree = "<group>"; };
+		F82907B7DFA7E938CF12DD2D /* libPods-记录最近打开的文件.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-记录最近打开的文件.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182AAE331E557ADB00BB420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536F6864D1E259B8ED5F0822 /* libPods-记录最近打开的文件.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE4C1E557ADB00BB420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE571E557ADB00BB420C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182AAE2D1E557ADB00BB420C = {
+			isa = PBXGroup;
+			children = (
+				182AAE381E557ADB00BB420C /* 记录最近打开的文件 */,
+				182AAE521E557ADB00BB420C /* 记录最近打开的文件Tests */,
+				182AAE5D1E557ADB00BB420C /* 记录最近打开的文件UITests */,
+				182AAE371E557ADB00BB420C /* Products */,
+				783AA99BD4E6F48734952C92 /* Pods */,
+				570F5780E02C56FB555653F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182AAE371E557ADB00BB420C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182AAE361E557ADB00BB420C /* 记录最近打开的文件.app */,
+				182AAE4F1E557ADB00BB420C /* 记录最近打开的文件Tests.xctest */,
+				182AAE5A1E557ADB00BB420C /* 记录最近打开的文件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182AAE381E557ADB00BB420C /* 记录最近打开的文件 */ = {
+			isa = PBXGroup;
+			children = (
+				182AAED01E558E6900BB420C /* Functional Specification for CAM iPoS -Supplement v0.3.doc */,
+				182AAECF1E558E5C00BB420C /* Functional Specification_PAL_Wrapper_V1.1.docx */,
+				182AAED11E558E7200BB420C /* Functional Specification for CAM iPoS v0.9.doc */,
+				182AAEC81E558CA900BB420C /* Dao */,
+				182AAEC71E558CA000BB420C /* Bean */,
+				182AAE6C1E557AFA00BB420C /* ezdb */,
+				182AAE3C1E557ADB00BB420C /* AppDelegate.h */,
+				182AAE3D1E557ADB00BB420C /* AppDelegate.m */,
+				182AAEC01E55885400BB420C /* SingletonMacro.h */,
+				182AAEC11E5588AC00BB420C /* BaseFileManager.h */,
+				182AAEC21E5588AC00BB420C /* BaseFileManager.m */,
+				182AAEBC1E55874E00BB420C /* AppDataBase.h */,
+				182AAEBD1E55874E00BB420C /* AppDataBase.m */,
+				182AAE3F1E557ADB00BB420C /* ViewController.h */,
+				182AAE401E557ADB00BB420C /* ViewController.m */,
+				182AAEC41E558A5B00BB420C /* ReadViewController.h */,
+				182AAEC51E558A5B00BB420C /* ReadViewController.m */,
+				182AAEB31E55800400BB420C /* ViewControllerTwo.h */,
+				182AAEB41E55800400BB420C /* ViewControllerTwo.m */,
+				182AAEBF1E5587DA00BB420C /* PrefixHeader.pch */,
+				182AAE421E557ADB00BB420C /* Main.storyboard */,
+				182AAE451E557ADB00BB420C /* Assets.xcassets */,
+				182AAE471E557ADB00BB420C /* LaunchScreen.storyboard */,
+				182AAE4A1E557ADB00BB420C /* Info.plist */,
+				182AAE391E557ADB00BB420C /* Supporting Files */,
+			);
+			path = "记录最近打开的文件";
+			sourceTree = "<group>";
+		};
+		182AAE391E557ADB00BB420C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182AAE3A1E557ADB00BB420C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182AAE521E557ADB00BB420C /* 记录最近打开的文件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				182AAE531E557ADB00BB420C /* _________Tests.m */,
+				182AAE551E557ADB00BB420C /* Info.plist */,
+			);
+			path = "记录最近打开的文件Tests";
+			sourceTree = "<group>";
+		};
+		182AAE5D1E557ADB00BB420C /* 记录最近打开的文件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				182AAE5E1E557ADB00BB420C /* _________UITests.m */,
+				182AAE601E557ADB00BB420C /* Info.plist */,
+			);
+			path = "记录最近打开的文件UITests";
+			sourceTree = "<group>";
+		};
+		182AAE6C1E557AFA00BB420C /* ezdb */ = {
+			isa = PBXGroup;
+			children = (
+				182AAE6D1E557AFA00BB420C /* EZBean.h */,
+				182AAE6E1E557AFA00BB420C /* EZBean.m */,
+				182AAE6F1E557AFA00BB420C /* EZDao.h */,
+				182AAE701E557AFA00BB420C /* EZDao.m */,
+				182AAE711E557AFA00BB420C /* EZDatabase.h */,
+				182AAE721E557AFA00BB420C /* EZDatabase.m */,
+				182AAE731E557AFA00BB420C /* EZDB.h */,
+			);
+			path = ezdb;
+			sourceTree = "<group>";
+		};
+		182AAEC71E558CA000BB420C /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				182AAECC1E558D0C00BB420C /* OpenFileBean.h */,
+				182AAECD1E558D0C00BB420C /* OpenFileBean.m */,
+			);
+			path = Bean;
+			sourceTree = "<group>";
+		};
+		182AAEC81E558CA900BB420C /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				182AAEC91E558CFD00BB420C /* OpenFileDao.h */,
+				182AAECA1E558CFD00BB420C /* OpenFileDao.m */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		570F5780E02C56FB555653F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82907B7DFA7E938CF12DD2D /* libPods-记录最近打开的文件.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783AA99BD4E6F48734952C92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4BE8386C74157DB26DE5BE5 /* Pods-记录最近打开的文件.debug.xcconfig */,
+				DD282977F069515F26977595 /* Pods-记录最近打开的文件.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182AAE351E557ADB00BB420C /* 记录最近打开的文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182AAE631E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件" */;
+			buildPhases = (
+				300CFA7B4A4E7F97348692E4 /* [CP] Check Pods Manifest.lock */,
+				182AAE321E557ADB00BB420C /* Sources */,
+				182AAE331E557ADB00BB420C /* Frameworks */,
+				182AAE341E557ADB00BB420C /* Resources */,
+				A79681D9BE47820A49DA367F /* [CP] Embed Pods Frameworks */,
+				4ACFAD83A23ADF4A0DB089B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "记录最近打开的文件";
+			productName = "记录最近打开的文件";
+			productReference = 182AAE361E557ADB00BB420C /* 记录最近打开的文件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182AAE4E1E557ADB00BB420C /* 记录最近打开的文件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182AAE661E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件Tests" */;
+			buildPhases = (
+				182AAE4B1E557ADB00BB420C /* Sources */,
+				182AAE4C1E557ADB00BB420C /* Frameworks */,
+				182AAE4D1E557ADB00BB420C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182AAE511E557ADB00BB420C /* PBXTargetDependency */,
+			);
+			name = "记录最近打开的文件Tests";
+			productName = "记录最近打开的文件Tests";
+			productReference = 182AAE4F1E557ADB00BB420C /* 记录最近打开的文件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182AAE591E557ADB00BB420C /* 记录最近打开的文件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182AAE691E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件UITests" */;
+			buildPhases = (
+				182AAE561E557ADB00BB420C /* Sources */,
+				182AAE571E557ADB00BB420C /* Frameworks */,
+				182AAE581E557ADB00BB420C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182AAE5C1E557ADB00BB420C /* PBXTargetDependency */,
+			);
+			name = "记录最近打开的文件UITests";
+			productName = "记录最近打开的文件UITests";
+			productReference = 182AAE5A1E557ADB00BB420C /* 记录最近打开的文件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182AAE2E1E557ADB00BB420C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chuckie;
+				TargetAttributes = {
+					182AAE351E557ADB00BB420C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+					};
+					182AAE4E1E557ADB00BB420C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182AAE351E557ADB00BB420C;
+					};
+					182AAE591E557ADB00BB420C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182AAE351E557ADB00BB420C;
+					};
+				};
+			};
+			buildConfigurationList = 182AAE311E557ADB00BB420C /* Build configuration list for PBXProject "记录最近打开的文件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182AAE2D1E557ADB00BB420C;
+			productRefGroup = 182AAE371E557ADB00BB420C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182AAE351E557ADB00BB420C /* 记录最近打开的文件 */,
+				182AAE4E1E557ADB00BB420C /* 记录最近打开的文件Tests */,
+				182AAE591E557ADB00BB420C /* 记录最近打开的文件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182AAE341E557ADB00BB420C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182AAE491E557ADB00BB420C /* LaunchScreen.storyboard in Resources */,
+				182AAE461E557ADB00BB420C /* Assets.xcassets in Resources */,
+				182AAE441E557ADB00BB420C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE4D1E557ADB00BB420C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE581E557ADB00BB420C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		300CFA7B4A4E7F97348692E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ACFAD83A23ADF4A0DB089B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-记录最近打开的文件/Pods-记录最近打开的文件-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79681D9BE47820A49DA367F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-记录最近打开的文件/Pods-记录最近打开的文件-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182AAE321E557ADB00BB420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182AAE751E557AFA00BB420C /* EZDao.m in Sources */,
+				182AAE741E557AFA00BB420C /* EZBean.m in Sources */,
+				182AAEC31E5588AC00BB420C /* BaseFileManager.m in Sources */,
+				182AAE411E557ADB00BB420C /* ViewController.m in Sources */,
+				182AAECB1E558CFD00BB420C /* OpenFileDao.m in Sources */,
+				182AAEBE1E55874E00BB420C /* AppDataBase.m in Sources */,
+				182AAECE1E558D0C00BB420C /* OpenFileBean.m in Sources */,
+				182AAE3E1E557ADB00BB420C /* AppDelegate.m in Sources */,
+				182AAEB51E55800400BB420C /* ViewControllerTwo.m in Sources */,
+				182AAE3B1E557ADB00BB420C /* main.m in Sources */,
+				182AAEC61E558A5B00BB420C /* ReadViewController.m in Sources */,
+				182AAE761E557AFA00BB420C /* EZDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE4B1E557ADB00BB420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182AAE541E557ADB00BB420C /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182AAE561E557ADB00BB420C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182AAE5F1E557ADB00BB420C /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182AAE511E557ADB00BB420C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182AAE351E557ADB00BB420C /* 记录最近打开的文件 */;
+			targetProxy = 182AAE501E557ADB00BB420C /* PBXContainerItemProxy */;
+		};
+		182AAE5C1E557ADB00BB420C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182AAE351E557ADB00BB420C /* 记录最近打开的文件 */;
+			targetProxy = 182AAE5B1E557ADB00BB420C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182AAE421E557ADB00BB420C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182AAE431E557ADB00BB420C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182AAE471E557ADB00BB420C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182AAE481E557ADB00BB420C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182AAE611E557ADB00BB420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182AAE621E557ADB00BB420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182AAE641E557ADB00BB420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BE8386C74157DB26DE5BE5 /* Pods-记录最近打开的文件.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/记录最近打开的文件/PrefixHeader.pch";
+				INFOPLIST_FILE = "记录最近打开的文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.word;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182AAE651E557ADB00BB420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD282977F069515F26977595 /* Pods-记录最近打开的文件.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/记录最近打开的文件/PrefixHeader.pch";
+				INFOPLIST_FILE = "记录最近打开的文件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIATechnologySharedServices.word;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182AAE671E557ADB00BB420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "记录最近打开的文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记录最近打开的文件.app/记录最近打开的文件";
+			};
+			name = Debug;
+		};
+		182AAE681E557ADB00BB420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "记录最近打开的文件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记录最近打开的文件.app/记录最近打开的文件";
+			};
+			name = Release;
+		};
+		182AAE6A1E557ADB00BB420C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "记录最近打开的文件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "记录最近打开的文件";
+			};
+			name = Debug;
+		};
+		182AAE6B1E557ADB00BB420C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "记录最近打开的文件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "记录最近打开的文件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182AAE311E557ADB00BB420C /* Build configuration list for PBXProject "记录最近打开的文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182AAE611E557ADB00BB420C /* Debug */,
+				182AAE621E557ADB00BB420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182AAE631E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182AAE641E557ADB00BB420C /* Debug */,
+				182AAE651E557ADB00BB420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182AAE661E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182AAE671E557ADB00BB420C /* Debug */,
+				182AAE681E557ADB00BB420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182AAE691E557ADB00BB420C /* Build configuration list for PBXNativeTarget "记录最近打开的文件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182AAE6A1E557ADB00BB420C /* Debug */,
+				182AAE6B1E557ADB00BB420C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182AAE2E1E557ADB00BB420C /* Project object */;
+}

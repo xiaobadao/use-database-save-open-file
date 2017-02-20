@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052C366F31A0C7565FBDE77F2A8FE727 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA13F8A4AD9B532744C441188819B9EB /* SWUtilityButtonTapGestureRecognizer.m */; };
+		0581A481116515C70606A0E364624AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		0887A17DD9DF1632570C94CA31CFB9E5 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DD92F6083C2FCE2F67BFA03EC94F8B /* MJProperty.m */; };
+		0B0AAB4C7F9681F2248E160AE7B86F36 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 413241E242511DEF5563078E12C767E3 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0B25153F96FEC9B57BD4A521B9DCC90D /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B695C0362A260A6D5E9E602A502768 /* SQLCipher-dummy.m */; };
+		0D94C659BCD8E21840382DEBC40D38DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 126F53893107139F39FD5CE6337879EB /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E5AC40CEE82BC345E93DB69ED90C055 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9893829A8231008B269996542DAC2 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B52239818F04048F2521063DDC11527 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 573BB0D8336C6315C2C992F155968D6C /* MJPropertyType.m */; };
+		1F8FEA93407CEC682A2C0C282CDEAD89 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F00B7CB6CE587979818A95DF1B2801 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2357DDC85500B4F45E37E411B596F562 /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = F11D3510B1A0D2098CD921807E93333E /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293C97A20DD1B17CD83A5159B7E786C7 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 942A821CFAA5374BFDAF18F3E1F17DC3 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC50472DC9ECF785BC256894862C5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		2B3685B0AC1D7A0D3B13ED5184D8CD1C /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F40ABFCFB8D724D55D36ED2C35217F4 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_THREADSAFE -DSQLCIPHER_CRYPTO_CC -fno-objc-arc"; }; };
+		2CD277CDDB5FE8331E31A09319424F29 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = ED207D5E1F93AEBD9F52387CE8365A20 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0368CB5E43DF5325FAD0D62C1402E4 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A0415C8D993B3DED9B47C401C26AA /* NSObject+MJCoding.m */; };
+		317F5AA92CDFEEFB2DCA6FA1E2D67192 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 411F7ED6528A3D47E8360EAEE9312578 /* NSMutableArray+SWUtilityButtons.m */; };
+		3D41E590C2D15195583D8070C49A765B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B02C6A9CA1991EBED090907C10285 /* NSObject+MJProperty.m */; };
+		405AA1958F3410D97460832C03B7F846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		43BC5DAC766F3B0BBE6E386379B466D2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E1B44CDBDD2224A842B457992F1E3 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45636762A2124EA5B0E281EBCBD54356 /* Pods-记录最近打开的文件-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F87B27936B6C0667511C230B0638F0C /* Pods-记录最近打开的文件-dummy.m */; };
+		4C6BFB4C1F6CF71C99E1FB270F0FEDAF /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9041116FF0A689E974ABF76C55E0BF /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC9C69E797A8B66E96A7A1C1B1B51CC /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D4F0553BBE5A7884B5A57DB08D6B5 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E38D41313B9420037871A67158DAD0F /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299D438BCC0DB9A84FAF4BA71F1E81D /* NSObject+MJKeyValue.m */; };
+		4F0107A7976BB48BBDCFF4742BBA39E6 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 925D429B0AD60006608D267C5EFBD318 /* MJExtension-dummy.m */; };
+		52BA5ED3898FD3C7571E9B74782158A5 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A08CAB7603D770476EFD3F22DB55664 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA06C942FD2B10AE8199DB72906181D /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA1C89C82ECF6A56265A18D78BE0057 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B69DCB5CCD6280F5C6B8D820E61110 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0755C2FE5EAA4F22BD834D5F7DA32DBF /* NSObject+MJClass.m */; };
+		71D76142B0019755A8ABC0E39D27B246 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16751A2C68646FF069DE1AF6E808FC5B /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74FC2EA0F99B30CC85A59238E8C0D336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		774BFE769BB534897F384F894EF4DC82 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6743544D0FFBA495E3E3D1E6E1F74B3 /* NSString+MJExtension.m */; };
+		7B7B14CBC8583AEB08A35840020636D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		80F0D2D73E4BFA85D98E6CCC269145E9 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D0007111F33E7DFC58D04F38EFCA8271 /* MJPropertyKey.m */; };
+		895B202C781729F67FF15FCFBA1AAF0C /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 178145AFF09D8D107A35E1381A34C5B8 /* SWTableViewCell.m */; };
+		92937DC066543122186195A2941D3C60 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B66E6C9C415BB2757BD20AACA898E290 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		931A8C5BFA960C791A707FE42AC4CC55 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 645C1E2315FFD277E7B4767B93DB4928 /* SWUtilityButtonView.m */; };
+		972A4AE99597C072279DF1D943B42FAE /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7132235DB5DDBA75AE8D11EC71A14C /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996DB9D809EC6C6DEE6BBA958F084A06 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421E1775352E02EDA2B73C3F9D19FE5 /* SWLongPressGestureRecognizer.m */; };
+		9ED36D73584E73C391D18580D2ACED20 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5141D37D23FFC80C89B74CED878688D8 /* MJFoundation.m */; };
+		A9BB399F2E22D154F3668368282D1F9C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = C84BA47C187D7B12464AA8314EE4302F /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD680D4A742F76FCE9211342DD907EB1 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEEAFAA973B89E700F40A439960C999 /* MJExtensionConst.m */; };
+		B2AD141BBEB7825ABC172E710544F393 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B4F572A46C49F74D9D544091D9E32 /* SWCellScrollView.m */; };
+		B7D9743CAFA29FA876B363D1CDA48C02 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC7B399B84796754C33429526F6E5D1 /* SWTableViewCell-dummy.m */; };
+		B915E3CFDFBA7B99411BC5430162868F /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 345B3A524D19D3F94209D9658A1F9AB7 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD445DED9D33759F32770A79743579FF /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = D79C4156FA6B0A7110894995DFDE6149 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0684D74D194CD8F74E3A8EB4155DBC9 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0705ADD28811E65BC626733D6197D7DE /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C20839AD90BFA2B26AECEBDD2960D95B /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DDF5E24699A6DC625F468CCFFC3C29 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA073485222F5F656AAF745EB499742 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AD57AAADF2A2838A599333F01F9F0C /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A36AAA666940952DE059BA42A74655 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBB6D3A1B12ED5A86E7849BE8A41D52 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A9DC4A28D81D35BF0BD37AB11BFDFC /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12E58092014B39AA58BEA0097A6C176 /* FMDB-dummy.m */; };
+		D737EF165F8006152F2B65960F1FB14C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3269FF4948D94C09986BEFA222C6E31C /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BF4DBA76F12C797027E90648D9AEE0 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 883F13A93F43D89D28D8499DC086D225 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBDCE948DF1D74806D9D319F636A0E8B /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DB936F0B0F5166AEBD3E72D95A82F0 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0AA9E8B308E45F90AD7A01F8BBC4DC /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD6E792B40D85AA25D78607F14BA759 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6796FE4845FD85F94D2AAC48221CEC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
+		E815BC8DC0315C3543D040BDD8C6B359 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5C4C5C743507D3EC204566861534CD /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC559C56FFB11A7F8AF95A6DEFCEBD60 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = C13682869D77EEBEDBE1D695FCBE97C5 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3ACBBBC0017CCDA3415179E1F4EC3F7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E155705197281B313B99AC1E353A110 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105E25081700B448E6558FFDA34CFEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A316B54C67E947D23CECD230FA5BFAEF;
+			remoteInfo = MJExtension;
+		};
+		3A1C72F1521CE0945373DC6D5F1B47CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E717045B5451A9293C1C2D5BA968E481;
+			remoteInfo = SQLCipher;
+		};
+		8135402712E814DD2869DE3D11A2BFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E717045B5451A9293C1C2D5BA968E481;
+			remoteInfo = SQLCipher;
+		};
+		A92CAF6B4D935F42BC30DC5EA8FED677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018896F7A09D0A7EA34F3314A3194B4A;
+			remoteInfo = FMDB;
+		};
+		C0D586B885C4956E11840183BAFB59BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28793FA53473BD09D455950D5964A23B;
+			remoteInfo = SWTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061E1B44CDBDD2224A842B457992F1E3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0705ADD28811E65BC626733D6197D7DE /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		0755C2FE5EAA4F22BD834D5F7DA32DBF /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		0AFCF573C301B33975B1F372061C47B6 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		0B0CCA42F0525EE71B20074DF4ED430F /* Pods-记录最近打开的文件-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-记录最近打开的文件-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5C4C5C743507D3EC204566861534CD /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		10AFA003EAE42BD181CFF5E081176EC4 /* Pods-记录最近打开的文件.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-记录最近打开的文件.release.xcconfig"; sourceTree = "<group>"; };
+		126F53893107139F39FD5CE6337879EB /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		13F00B7CB6CE587979818A95DF1B2801 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		16751A2C68646FF069DE1AF6E808FC5B /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		178145AFF09D8D107A35E1381A34C5B8 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		1F40ABFCFB8D724D55D36ED2C35217F4 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
+		25B695C0362A260A6D5E9E602A502768 /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		282E7827B70F6AA3401FADB2514B50F6 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		2B19543BB17F8F9F9F5F7B6D5046E057 /* Pods-记录最近打开的文件-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-记录最近打开的文件-resources.sh"; sourceTree = "<group>"; };
+		2C25BE56653BECA64449D5EF6AD505F1 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		3269FF4948D94C09986BEFA222C6E31C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		33D9893829A8231008B269996542DAC2 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		345B3A524D19D3F94209D9658A1F9AB7 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		3D716E249BB86EF8C71F99969B6E60E6 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F7ED6528A3D47E8360EAEE9312578 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		413241E242511DEF5563078E12C767E3 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		425B02C6A9CA1991EBED090907C10285 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		4F87B27936B6C0667511C230B0638F0C /* Pods-记录最近打开的文件-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-记录最近打开的文件-dummy.m"; sourceTree = "<group>"; };
+		5141D37D23FFC80C89B74CED878688D8 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		5421E1775352E02EDA2B73C3F9D19FE5 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		573BB0D8336C6315C2C992F155968D6C /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		5A98A5469A1DBA44A87CBAB729CA8C1D /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		5AB9754785D939B034842B51BB6ED545 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		5BFDC1FA3A3DDD4D3B3C85350D7C5DE2 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		6299D438BCC0DB9A84FAF4BA71F1E81D /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		631A0415C8D993B3DED9B47C401C26AA /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		645C1E2315FFD277E7B4767B93DB4928 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		6BC7B399B84796754C33429526F6E5D1 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		70DDF5E24699A6DC625F468CCFFC3C29 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		7BA1C89C82ECF6A56265A18D78BE0057 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		7CD6E792B40D85AA25D78607F14BA759 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		883F13A93F43D89D28D8499DC086D225 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		8A08CAB7603D770476EFD3F22DB55664 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		925D429B0AD60006608D267C5EFBD318 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		93164BC563A852DA3ECF4C4A85D6CE86 /* libPods-记录最近打开的文件.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-记录最近打开的文件.a"; path = "libPods-记录最近打开的文件.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942A821CFAA5374BFDAF18F3E1F17DC3 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		95AD57AAADF2A2838A599333F01F9F0C /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		983B4F572A46C49F74D9D544091D9E32 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		9E155705197281B313B99AC1E353A110 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A3B6F61E510CB3B0BC44E915C66113D4 /* Pods-记录最近打开的文件-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-记录最近打开的文件-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB118B67E65857C8C25547E0075C06DF /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		AD9041116FF0A689E974ABF76C55E0BF /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		AF7132235DB5DDBA75AE8D11EC71A14C /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		B0BE840F90D7BBB40145C236A2BCD353 /* libSQLCipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQLCipher.a; path = libSQLCipher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12E58092014B39AA58BEA0097A6C176 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B66E6C9C415BB2757BD20AACA898E290 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		B6C3C09000BF1C5BB9211584DCB86FF6 /* libSWTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSWTableViewCell.a; path = libSWTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEEAFAA973B89E700F40A439960C999 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		C13682869D77EEBEDBE1D695FCBE97C5 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		C2A4AC5BE69514AF499C298420DDC704 /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		C84BA47C187D7B12464AA8314EE4302F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D0007111F33E7DFC58D04F38EFCA8271 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		D79C4156FA6B0A7110894995DFDE6149 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		D94DD1C6CBD08E00B2D3FA61F46A06BD /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DD92F6083C2FCE2F67BFA03EC94F8B /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		E0F5AD85FC023C165DD4CACBA553E680 /* Pods-记录最近打开的文件.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-记录最近打开的文件.debug.xcconfig"; sourceTree = "<group>"; };
+		E6743544D0FFBA495E3E3D1E6E1F74B3 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		E7DB936F0B0F5166AEBD3E72D95A82F0 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		EC6D4F0553BBE5A7884B5A57DB08D6B5 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		ED207D5E1F93AEBD9F52387CE8365A20 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		F0D5FD715A3A7BA0AF0F8229793BFF1C /* Pods-记录最近打开的文件-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-记录最近打开的文件-frameworks.sh"; sourceTree = "<group>"; };
+		F11D3510B1A0D2098CD921807E93333E /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		FA13F8A4AD9B532744C441188819B9EB /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		FBBB6D3A1B12ED5A86E7849BE8A41D52 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A692C2552ACDCE7DF81AA50A5AA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405AA1958F3410D97460832C03B7F846 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F3CD507215CFE8405308C02694A267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FC2EA0F99B30CC85A59238E8C0D336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974B1724ECD35998B3C62D3E93852EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC50472DC9ECF785BC256894862C5E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57134F14D0B782971053CD2EB92CC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7B14CBC8583AEB08A35840020636D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0639A5E691D897FB2D4304ADF3FA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0581A481116515C70606A0E364624AEB /* Foundation.framework in Frameworks */,
+				E6796FE4845FD85F94D2AAC48221CEC7 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08A856166DCA63791F33FA821A007A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB9754785D939B034842B51BB6ED545 /* SWTableViewCell.xcconfig */,
+				6BC7B399B84796754C33429526F6E5D1 /* SWTableViewCell-dummy.m */,
+				5A98A5469A1DBA44A87CBAB729CA8C1D /* SWTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		0FBD903F233098F98EC30BC1C8A0EBAD /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1F40ABFCFB8D724D55D36ED2C35217F4 /* sqlite3.c */,
+				0F5C4C5C743507D3EC204566861534CD /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		162D742F5BFC332583A31B9DA5D68B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2A21FC89CAD746B9D87BA59CDBAFB /* FMDB */,
+				282CDF4EE46D10DB3DB3BDCCBF382283 /* MJExtension */,
+				A3609252B0761F9F5411E194A72DF59E /* SQLCipher */,
+				646319863F00AE998A1086653D0C74F6 /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		282CDF4EE46D10DB3DB3BDCCBF382283 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D4F0553BBE5A7884B5A57DB08D6B5 /* MJExtension.h */,
+				883F13A93F43D89D28D8499DC086D225 /* MJExtensionConst.h */,
+				BEEEAFAA973B89E700F40A439960C999 /* MJExtensionConst.m */,
+				B66E6C9C415BB2757BD20AACA898E290 /* MJFoundation.h */,
+				5141D37D23FFC80C89B74CED878688D8 /* MJFoundation.m */,
+				13F00B7CB6CE587979818A95DF1B2801 /* MJProperty.h */,
+				E0DD92F6083C2FCE2F67BFA03EC94F8B /* MJProperty.m */,
+				AD9041116FF0A689E974ABF76C55E0BF /* MJPropertyKey.h */,
+				D0007111F33E7DFC58D04F38EFCA8271 /* MJPropertyKey.m */,
+				8A08CAB7603D770476EFD3F22DB55664 /* MJPropertyType.h */,
+				573BB0D8336C6315C2C992F155968D6C /* MJPropertyType.m */,
+				345B3A524D19D3F94209D9658A1F9AB7 /* NSObject+MJClass.h */,
+				0755C2FE5EAA4F22BD834D5F7DA32DBF /* NSObject+MJClass.m */,
+				95AD57AAADF2A2838A599333F01F9F0C /* NSObject+MJCoding.h */,
+				631A0415C8D993B3DED9B47C401C26AA /* NSObject+MJCoding.m */,
+				F11D3510B1A0D2098CD921807E93333E /* NSObject+MJKeyValue.h */,
+				6299D438BCC0DB9A84FAF4BA71F1E81D /* NSObject+MJKeyValue.m */,
+				7CD6E792B40D85AA25D78607F14BA759 /* NSObject+MJProperty.h */,
+				425B02C6A9CA1991EBED090907C10285 /* NSObject+MJProperty.m */,
+				E7DB936F0B0F5166AEBD3E72D95A82F0 /* NSString+MJExtension.h */,
+				E6743544D0FFBA495E3E3D1E6E1F74B3 /* NSString+MJExtension.m */,
+				97A71FB4FE29574D23C073763F0A4869 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */,
+				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		34E6AFAF832691CE89B27116122CF69C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB118B67E65857C8C25547E0075C06DF /* SQLCipher.xcconfig */,
+				25B695C0362A260A6D5E9E602A502768 /* SQLCipher-dummy.m */,
+				C2A4AC5BE69514AF499C298420DDC704 /* SQLCipher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		42C7C0EF3513AC192EA6CDABD48F3E7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				282E7827B70F6AA3401FADB2514B50F6 /* FMDB.xcconfig */,
+				B12E58092014B39AA58BEA0097A6C176 /* FMDB-dummy.m */,
+				0AFCF573C301B33975B1F372061C47B6 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E339049816F198EB76DEA4264EF8374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46C325074F399A270B935E0647E07E96 /* Pods-记录最近打开的文件 */ = {
+			isa = PBXGroup;
+			children = (
+				A3B6F61E510CB3B0BC44E915C66113D4 /* Pods-记录最近打开的文件-acknowledgements.markdown */,
+				0B0CCA42F0525EE71B20074DF4ED430F /* Pods-记录最近打开的文件-acknowledgements.plist */,
+				4F87B27936B6C0667511C230B0638F0C /* Pods-记录最近打开的文件-dummy.m */,
+				F0D5FD715A3A7BA0AF0F8229793BFF1C /* Pods-记录最近打开的文件-frameworks.sh */,
+				2B19543BB17F8F9F9F5F7B6D5046E057 /* Pods-记录最近打开的文件-resources.sh */,
+				E0F5AD85FC023C165DD4CACBA553E680 /* Pods-记录最近打开的文件.debug.xcconfig */,
+				10AFA003EAE42BD181CFF5E081176EC4 /* Pods-记录最近打开的文件.release.xcconfig */,
+			);
+			name = "Pods-记录最近打开的文件";
+			path = "Target Support Files/Pods-记录最近打开的文件";
+			sourceTree = "<group>";
+		};
+		646319863F00AE998A1086653D0C74F6 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7BA1C89C82ECF6A56265A18D78BE0057 /* NSMutableArray+SWUtilityButtons.h */,
+				411F7ED6528A3D47E8360EAEE9312578 /* NSMutableArray+SWUtilityButtons.m */,
+				942A821CFAA5374BFDAF18F3E1F17DC3 /* SWCellScrollView.h */,
+				983B4F572A46C49F74D9D544091D9E32 /* SWCellScrollView.m */,
+				D79C4156FA6B0A7110894995DFDE6149 /* SWLongPressGestureRecognizer.h */,
+				5421E1775352E02EDA2B73C3F9D19FE5 /* SWLongPressGestureRecognizer.m */,
+				FBBB6D3A1B12ED5A86E7849BE8A41D52 /* SWTableViewCell.h */,
+				178145AFF09D8D107A35E1381A34C5B8 /* SWTableViewCell.m */,
+				0705ADD28811E65BC626733D6197D7DE /* SWUtilityButtonTapGestureRecognizer.h */,
+				FA13F8A4AD9B532744C441188819B9EB /* SWUtilityButtonTapGestureRecognizer.m */,
+				70DDF5E24699A6DC625F468CCFFC3C29 /* SWUtilityButtonView.h */,
+				645C1E2315FFD277E7B4767B93DB4928 /* SWUtilityButtonView.m */,
+				0C08A856166DCA63791F33FA821A007A /* Support Files */,
+			);
+			name = SWTableViewCell;
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		78DC9B6415A3F2CE808648308D6672E1 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				33D9893829A8231008B269996542DAC2 /* FMDatabase.h */,
+				126F53893107139F39FD5CE6337879EB /* FMDatabase.m */,
+				3269FF4948D94C09986BEFA222C6E31C /* FMDatabaseAdditions.h */,
+				9E155705197281B313B99AC1E353A110 /* FMDatabaseAdditions.m */,
+				C13682869D77EEBEDBE1D695FCBE97C5 /* FMDatabasePool.h */,
+				16751A2C68646FF069DE1AF6E808FC5B /* FMDatabasePool.m */,
+				C84BA47C187D7B12464AA8314EE4302F /* FMDatabaseQueue.h */,
+				061E1B44CDBDD2224A842B457992F1E3 /* FMDatabaseQueue.m */,
+				ED207D5E1F93AEBD9F52387CE8365A20 /* FMDB.h */,
+				AF7132235DB5DDBA75AE8D11EC71A14C /* FMResultSet.h */,
+				413241E242511DEF5563078E12C767E3 /* FMResultSet.m */,
+			);
+			name = SQLCipher;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				162D742F5BFC332583A31B9DA5D68B59 /* Pods */,
+				8F44F523484B6B856F7B009F017A490D /* Products */,
+				C0CA84D3C4EB2BAADCD6D0ECE264DE77 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F44F523484B6B856F7B009F017A490D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94DD1C6CBD08E00B2D3FA61F46A06BD /* libFMDB.a */,
+				3D716E249BB86EF8C71F99969B6E60E6 /* libMJExtension.a */,
+				93164BC563A852DA3ECF4C4A85D6CE86 /* libPods-记录最近打开的文件.a */,
+				B0BE840F90D7BBB40145C236A2BCD353 /* libSQLCipher.a */,
+				B6C3C09000BF1C5BB9211584DCB86FF6 /* libSWTableViewCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97A71FB4FE29574D23C073763F0A4869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C25BE56653BECA64449D5EF6AD505F1 /* MJExtension.xcconfig */,
+				925D429B0AD60006608D267C5EFBD318 /* MJExtension-dummy.m */,
+				5BFDC1FA3A3DDD4D3B3C85350D7C5DE2 /* MJExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		A3609252B0761F9F5411E194A72DF59E /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				0FBD903F233098F98EC30BC1C8A0EBAD /* common */,
+				34E6AFAF832691CE89B27116122CF69C /* Support Files */,
+			);
+			name = SQLCipher;
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		ABB2A21FC89CAD746B9D87BA59CDBAFB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				78DC9B6415A3F2CE808648308D6672E1 /* SQLCipher */,
+				42C7C0EF3513AC192EA6CDABD48F3E7D /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		C0CA84D3C4EB2BAADCD6D0ECE264DE77 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C325074F399A270B935E0647E07E96 /* Pods-记录最近打开的文件 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7582B7E7A4ED43FEF45721A3A5A75C44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E815BC8DC0315C3543D040BDD8C6B359 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FDC4C1CC2D555D32019DCD3BFFD022 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA06C942FD2B10AE8199DB72906181D /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				293C97A20DD1B17CD83A5159B7E786C7 /* SWCellScrollView.h in Headers */,
+				BD445DED9D33759F32770A79743579FF /* SWLongPressGestureRecognizer.h in Headers */,
+				D0A36AAA666940952DE059BA42A74655 /* SWTableViewCell.h in Headers */,
+				C0684D74D194CD8F74E3A8EB4155DBC9 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				C20839AD90BFA2B26AECEBDD2960D95B /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864D7FF60E899EA81A55C0B7F82FC174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC9C69E797A8B66E96A7A1C1B1B51CC /* MJExtension.h in Headers */,
+				D7BF4DBA76F12C797027E90648D9AEE0 /* MJExtensionConst.h in Headers */,
+				92937DC066543122186195A2941D3C60 /* MJFoundation.h in Headers */,
+				1F8FEA93407CEC682A2C0C282CDEAD89 /* MJProperty.h in Headers */,
+				4C6BFB4C1F6CF71C99E1FB270F0FEDAF /* MJPropertyKey.h in Headers */,
+				52BA5ED3898FD3C7571E9B74782158A5 /* MJPropertyType.h in Headers */,
+				B915E3CFDFBA7B99411BC5430162868F /* NSObject+MJClass.h in Headers */,
+				CBA073485222F5F656AAF745EB499742 /* NSObject+MJCoding.h in Headers */,
+				2357DDC85500B4F45E37E411B596F562 /* NSObject+MJKeyValue.h in Headers */,
+				DD0AA9E8B308E45F90AD7A01F8BBC4DC /* NSObject+MJProperty.h in Headers */,
+				DBDCE948DF1D74806D9D319F636A0E8B /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BDEA11112E70FE5CC14EC1579B3ACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5AC40CEE82BC345E93DB69ED90C055 /* FMDatabase.h in Headers */,
+				D737EF165F8006152F2B65960F1FB14C /* FMDatabaseAdditions.h in Headers */,
+				EC559C56FFB11A7F8AF95A6DEFCEBD60 /* FMDatabasePool.h in Headers */,
+				A9BB399F2E22D154F3668368282D1F9C /* FMDatabaseQueue.h in Headers */,
+				2CD277CDDB5FE8331E31A09319424F29 /* FMDB.h in Headers */,
+				972A4AE99597C072279DF1D943B42FAE /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		018896F7A09D0A7EA34F3314A3194B4A /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AE9AAFABDEE8C244153EBCEEC9F536 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				DDCAAEDCD9303B10AADC52F1EE922B0D /* Sources */,
+				974B1724ECD35998B3C62D3E93852EBC /* Frameworks */,
+				D2BDEA11112E70FE5CC14EC1579B3ACC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD47833B4CA7FB0CB6BB6E484F92C551 /* PBXTargetDependency */,
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = D94DD1C6CBD08E00B2D3FA61F46A06BD /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		28793FA53473BD09D455950D5964A23B /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72EE36168D5AFF2E5F624CDCD9FB652 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				A21F50F5CB492A2638CF56F18332B061 /* Sources */,
+				70F3CD507215CFE8405308C02694A267 /* Frameworks */,
+				85FDC4C1CC2D555D32019DCD3BFFD022 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = B6C3C09000BF1C5BB9211584DCB86FF6 /* libSWTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7031948ED1BB3BB4F3EEDE150E235EA7 /* Pods-记录最近打开的文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAAC75FD56F5654FA100217F09C1006 /* Build configuration list for PBXNativeTarget "Pods-记录最近打开的文件" */;
+			buildPhases = (
+				F8D5C6619BF41D5A0CC98F330F17EDB6 /* Sources */,
+				65A692C2552ACDCE7DF81AA50A5AA396 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF5121740FBFCA60F0469E848F7B434 /* PBXTargetDependency */,
+				B19DAC6A8935246A1C351375C1CE2272 /* PBXTargetDependency */,
+				940551C95488FCCFCDBC5957B86D838B /* PBXTargetDependency */,
+				C363448DC3ACF638CAADC27A046CDE22 /* PBXTargetDependency */,
+			);
+			name = "Pods-记录最近打开的文件";
+			productName = "Pods-记录最近打开的文件";
+			productReference = 93164BC563A852DA3ECF4C4A85D6CE86 /* libPods-记录最近打开的文件.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A316B54C67E947D23CECD230FA5BFAEF /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EE246612F53A73C8FBFCEC3A61508A /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				DE3C7F77ACB98406106FD6A2FC240643 /* Sources */,
+				B57134F14D0B782971053CD2EB92CC0C /* Frameworks */,
+				864D7FF60E899EA81A55C0B7F82FC174 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 3D716E249BB86EF8C71F99969B6E60E6 /* libMJExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E717045B5451A9293C1C2D5BA968E481 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E0185B58D6054E155CD47C17908059 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				43D080C1E8F63A663AE422E3B04FE283 /* Sources */,
+				BC0639A5E691D897FB2D4304ADF3FA30 /* Frameworks */,
+				7582B7E7A4ED43FEF45721A3A5A75C44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = B0BE840F90D7BBB40145C236A2BCD353 /* libSQLCipher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F44F523484B6B856F7B009F017A490D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018896F7A09D0A7EA34F3314A3194B4A /* FMDB */,
+				A316B54C67E947D23CECD230FA5BFAEF /* MJExtension */,
+				7031948ED1BB3BB4F3EEDE150E235EA7 /* Pods-记录最近打开的文件 */,
+				E717045B5451A9293C1C2D5BA968E481 /* SQLCipher */,
+				28793FA53473BD09D455950D5964A23B /* SWTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D080C1E8F63A663AE422E3B04FE283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B25153F96FEC9B57BD4A521B9DCC90D /* SQLCipher-dummy.m in Sources */,
+				2B3685B0AC1D7A0D3B13ED5184D8CD1C /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21F50F5CB492A2638CF56F18332B061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317F5AA92CDFEEFB2DCA6FA1E2D67192 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				B2AD141BBEB7825ABC172E710544F393 /* SWCellScrollView.m in Sources */,
+				996DB9D809EC6C6DEE6BBA958F084A06 /* SWLongPressGestureRecognizer.m in Sources */,
+				B7D9743CAFA29FA876B363D1CDA48C02 /* SWTableViewCell-dummy.m in Sources */,
+				895B202C781729F67FF15FCFBA1AAF0C /* SWTableViewCell.m in Sources */,
+				052C366F31A0C7565FBDE77F2A8FE727 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				931A8C5BFA960C791A707FE42AC4CC55 /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCAAEDCD9303B10AADC52F1EE922B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D94C659BCD8E21840382DEBC40D38DC /* FMDatabase.m in Sources */,
+				F3ACBBBC0017CCDA3415179E1F4EC3F7 /* FMDatabaseAdditions.m in Sources */,
+				71D76142B0019755A8ABC0E39D27B246 /* FMDatabasePool.m in Sources */,
+				43BC5DAC766F3B0BBE6E386379B466D2 /* FMDatabaseQueue.m in Sources */,
+				D6A9DC4A28D81D35BF0BD37AB11BFDFC /* FMDB-dummy.m in Sources */,
+				0B0AAB4C7F9681F2248E160AE7B86F36 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C7F77ACB98406106FD6A2FC240643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0107A7976BB48BBDCFF4742BBA39E6 /* MJExtension-dummy.m in Sources */,
+				AD680D4A742F76FCE9211342DD907EB1 /* MJExtensionConst.m in Sources */,
+				9ED36D73584E73C391D18580D2ACED20 /* MJFoundation.m in Sources */,
+				0887A17DD9DF1632570C94CA31CFB9E5 /* MJProperty.m in Sources */,
+				80F0D2D73E4BFA85D98E6CCC269145E9 /* MJPropertyKey.m in Sources */,
+				1B52239818F04048F2521063DDC11527 /* MJPropertyType.m in Sources */,
+				61B69DCB5CCD6280F5C6B8D820E61110 /* NSObject+MJClass.m in Sources */,
+				2E0368CB5E43DF5325FAD0D62C1402E4 /* NSObject+MJCoding.m in Sources */,
+				4E38D41313B9420037871A67158DAD0F /* NSObject+MJKeyValue.m in Sources */,
+				3D41E590C2D15195583D8070C49A765B /* NSObject+MJProperty.m in Sources */,
+				774BFE769BB534897F384F894EF4DC82 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5C6619BF41D5A0CC98F330F17EDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45636762A2124EA5B0E281EBCBD54356 /* Pods-记录最近打开的文件-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940551C95488FCCFCDBC5957B86D838B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = E717045B5451A9293C1C2D5BA968E481 /* SQLCipher */;
+			targetProxy = 8135402712E814DD2869DE3D11A2BFFF /* PBXContainerItemProxy */;
+		};
+		AEF5121740FBFCA60F0469E848F7B434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 018896F7A09D0A7EA34F3314A3194B4A /* FMDB */;
+			targetProxy = A92CAF6B4D935F42BC30DC5EA8FED677 /* PBXContainerItemProxy */;
+		};
+		B19DAC6A8935246A1C351375C1CE2272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = A316B54C67E947D23CECD230FA5BFAEF /* MJExtension */;
+			targetProxy = 105E25081700B448E6558FFDA34CFEC2 /* PBXContainerItemProxy */;
+		};
+		BD47833B4CA7FB0CB6BB6E484F92C551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = E717045B5451A9293C1C2D5BA968E481 /* SQLCipher */;
+			targetProxy = 3A1C72F1521CE0945373DC6D5F1B47CB /* PBXContainerItemProxy */;
+		};
+		C363448DC3ACF638CAADC27A046CDE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = 28793FA53473BD09D455950D5964A23B /* SWTableViewCell */;
+			targetProxy = C0D586B885C4956E11840183BAFB59BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		135730556439D92BB49E2BEABD1035D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AFA003EAE42BD181CFF5E081176EC4 /* Pods-记录最近打开的文件.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		24455948D3A3C98235995A605DB59FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C25BE56653BECA64449D5EF6AD505F1 /* MJExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864257C72797C3D88C7F59CD746CD135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C25BE56653BECA64449D5EF6AD505F1 /* MJExtension.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9019D8CD5C158AB379AD1EAF7B1DB418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282E7827B70F6AA3401FADB2514B50F6 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93F3146BA73C5DB924F71E50D14D4B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB9754785D939B034842B51BB6ED545 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A42AFDE62C4CCBA9DD90EBAC58BFFC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB9754785D939B034842B51BB6ED545 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B935100C59BED10B6F094AB79C24BE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB118B67E65857C8C25547E0075C06DF /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC49775CBAEC60AFA58227B0EB251393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F5AD85FC023C165DD4CACBA553E680 /* Pods-记录最近打开的文件.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF08D5A2ED6065F54137D68A968876AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282E7827B70F6AA3401FADB2514B50F6 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE98FA7CA1BBF98E0872F24D6AF2E3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB118B67E65857C8C25547E0075C06DF /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E0185B58D6054E155CD47C17908059 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B935100C59BED10B6F094AB79C24BE83 /* Debug */,
+				FE98FA7CA1BBF98E0872F24D6AF2E3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAAC75FD56F5654FA100217F09C1006 /* Build configuration list for PBXNativeTarget "Pods-记录最近打开的文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC49775CBAEC60AFA58227B0EB251393 /* Debug */,
+				135730556439D92BB49E2BEABD1035D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EE246612F53A73C8FBFCEC3A61508A /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864257C72797C3D88C7F59CD746CD135 /* Debug */,
+				24455948D3A3C98235995A605DB59FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72EE36168D5AFF2E5F624CDCD9FB652 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42AFDE62C4CCBA9DD90EBAC58BFFC3E /* Debug */,
+				93F3146BA73C5DB924F71E50D14D4B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AE9AAFABDEE8C244153EBCEEC9F536 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9019D8CD5C158AB379AD1EAF7B1DB418 /* Debug */,
+				CF08D5A2ED6065F54137D68A968876AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
